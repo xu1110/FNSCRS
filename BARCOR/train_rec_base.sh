@@ -1,0 +1,1 @@
+python train_rec.py --output_dir redial_rec --log_dir redial_rec --dataset ./data/redial_rec --kg_dataset ./kg_data/redial --repeated_item_removed

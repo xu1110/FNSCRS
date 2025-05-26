@@ -1,0 +1,1 @@
+python train_rec_ft.py --peft_model pretrain_inspired/best --output_dir finetune_inspired --log_dir finetune_inspired --dataset ./data/inspired_rec --kg_dataset ./kg_data/inspired --context_max_length 240 --learning_rate 1e-4 --repeated_item_removed

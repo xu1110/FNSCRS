@@ -1,0 +1,1 @@
+python /home/wxh/BARCOR/train_rec_aug_only.py --aug_dataset train_data_aug_gritlm7b_reward_model_50.jsonl --output_dir pretrain_redial --log_dir pretrain_redial --dataset ./data/redial_rec --kg_dataset ./kg_data/redial --repeated_item_removed

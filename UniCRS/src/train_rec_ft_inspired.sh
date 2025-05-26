@@ -1,0 +1,1 @@
+python train_rec.py --dataset inspired_rec --output_dir rec_finetune_inspired --log_dir rec_finetune_inspired  --prompt_encoder rec_pretrain_inspired/best --max_length 256 --prompt_max_length 256 --repeated_item_removed

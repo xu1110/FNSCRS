@@ -1,0 +1,1 @@
+python train_rec_aug_only.py --aug_dataset train_data_aug_gritlm_reward_model_old_50.jsonl --output_dir rec_pretrain_inspired --log_dir rec_pretrain_inspired --dataset inspired_rec --prompt_encoder inspired_pre/best --context_max_length 256 --prompt_max_length 256 --learning_rate 2e-4 --repeated_item_removed

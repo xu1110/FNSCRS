@@ -1,0 +1,1 @@
+python /home/wxh/BARCOR/train_rec_aug_only.py --aug_dataset train_data_aug_gritlm_reward_model_old_50.jsonl --output_dir pretrain_inspired --log_dir pretrain_inspired --dataset ./data/inspired_rec --kg_dataset ./kg_data/inspired --context_max_length 256 --repeated_item_removed

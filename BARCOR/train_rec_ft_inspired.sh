@@ -1,0 +1,1 @@
+python /home/wxh/BARCOR/train_rec.py --output_dir finetune_inspired --log_dir finetune_inspired --model pretrain_inspired/best --dataset ./data/inspired_rec --kg_dataset ./kg_data/inspired --context_max_length 256 --repeated_item_removed

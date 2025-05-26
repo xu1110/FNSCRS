@@ -1,0 +1,1 @@
+python train_rec.py --output_dir inspired_rec --log_dir inspired_rec --dataset ./data/inspired_rec --kg_dataset ./kg_data/inspired --learning_rate 5e-4 --context_max_length 240 --repeated_item_removed

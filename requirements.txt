@@ -1,0 +1,10 @@
+accelerate==0.33.0
+loguru==0.7.2
+nltk==3.8.1
+numpy==2.2.6
+pandas==2.2.3
+peft==0.8.2
+torch==2.1.2
+torch_geometric==2.6.1
+tqdm==4.66.4
+transformers==4.43.2

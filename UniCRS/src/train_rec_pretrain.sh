@@ -1,0 +1,1 @@
+python train_rec_aug_only.py --aug_dataset train_data_aug_gritlm7b_reward_model_50.jsonl --output_dir rec_pretrain_redial --log_dir rec_pretrain_redial --dataset redial_rec --prompt_encoder redial_pre/best --repeated_item_removed

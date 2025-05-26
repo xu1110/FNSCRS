@@ -1,3 +1,5 @@
+**Code is still under construction**
+
 **Step1**
 
 Unzip final_data, and put data (something like redial_rec) into the /data fold.
@@ -6,9 +8,9 @@ Unzip final_data, and put data (something like redial_rec) into the /data fold.
 
 sh train_pre(_inspired).sh (UniCRS only)
 
-sh train_rec_pretrain(_inspired).sh ## pretrain on synthetic dataset
+sh train_rec_pretrain(_inspired).sh ## pretrain on the synthetic dataset
 
-sh train_rec_ft(_inspired).sh ## finetune on real dataset
+sh train_rec_ft(_inspired).sh ## finetune on the real dataset
 
 **Note** 
 
