@@ -1,5 +1,3 @@
-**Code is still under construction**
-
 **Step1**
 
 Unzip final_data, and put data (something like redial_rec) into the /data fold.
