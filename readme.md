@@ -1,6 +1,6 @@
 **Step1**
 
-Unzip final_data, and put data (something like redial_rec) into the /data fold.
+Unzip final_data, and put data (something like redial_rec, inspired_rec) into the /data fold of the corresponding model, which include both the original dataset and the augmented dataset.
 
 **Step2**
 
