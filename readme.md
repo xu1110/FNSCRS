@@ -8,7 +8,7 @@ sh train_pre(_inspired).sh (UniCRS only)
 
 sh train_rec_pretrain(_inspired).sh ## pretrain on the synthetic dataset
 
-sh train_rec_ft(_inspired).sh ## finetune on the real dataset
+sh train_rec_ft(_inspired).sh ## finetune on the real dataset, you can use --kl_coef to add soft label.
 
 **Note** 
 
