@@ -1,6 +1,6 @@
 **Step1**
 
-Unzip final_data, and put data (something like redial_rec, inspired_rec) into the /data fold of the corresponding model, which include both the original dataset and the augmented dataset.
+Unzip final_data, and put data (something like redial_rec, inspired_rec) into the /data fold of the corresponding model, which include both the original dataset({train/valid/test}_data_processed.jsonl) and the augmented dataset (train_data_aug_gritlm7b_reward_model_50.jsonl).
 
 **Step2**
 
@@ -24,8 +24,12 @@ sh train_rec_base(_inspired).sh
 
 **Acknowledge**
 
-data and code is based on UniCRS[1] and CFCRS[2]
+Data and code is based on CFCRS[1] and UniCRS[2]. Please refer to CFCRS for raw data processing.
 
-[1] Towards Unified Conversational Recommender Systems via Knowledge-Enhanced Prompt Learning
+[1] Improving Conversational Recommendation Systems via Counterfactual Data Simulation
 
-[2] Improving Conversational Recommendation Systems via Counterfactual Data Simulation
+[2] Towards Unified Conversational Recommender Systems via Knowledge-Enhanced Prompt Learning
+
+**Contact**
+
+My email address is xuhaozhe1110@gmail.com
