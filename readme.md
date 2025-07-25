@@ -10,9 +10,11 @@ sh train_rec_pretrain(_inspired).sh ## pretrain on the synthetic dataset
 
 sh train_rec_ft(_inspired).sh ## finetune on the real dataset, you can use --kl_coef to add soft label.
 
-**Note** 
+**Results** 
 
-Please refer to the results in the final_evaluation (started with "final_evaluation:evaluate" in the logger file, printed after the training process is finished). It will filter out repeated items in the prediction list. The results printed during training do not filter out repeated items in the prediction list.
+Please primarily refer to the results in the final_evaluation **(started with "final_evaluation:evaluate: offline_metrics_removed" in the logger file, printed after the training process is finished)**. It will filter out repeated items in the prediction list. The results printed during training do not filter out repeated items in the prediction list.
+
+**Note**
 
 You can also run final_evaluation.py to get results using saved checkpoints.
 
